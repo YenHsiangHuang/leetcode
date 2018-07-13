@@ -7,3 +7,4 @@ foreach(oneSourceFile ${sourceFiles})
 endforeach(oneSourceFile ${sourceFiles})
 
 target_link_libraries(215_KthLargestElementInAnArray printer)
+target_link_libraries(75_SortColors printer)
