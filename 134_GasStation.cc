@@ -19,6 +19,7 @@ int canCompleteCircuit(std::vector<int>& gas, std::vector<int>& cost) {
 }
 
 // Time: 3n
+#if 0
 int canCompleteCircuit(std::vector<int>& gas, std::vector<int>& cost) {
     int n = gas.size();
     std::vector<int> net(n);
@@ -36,6 +37,7 @@ int canCompleteCircuit(std::vector<int>& gas, std::vector<int>& cost) {
 
     return (valley == n) ? 0 : valley + 1;
 }
+#endif
 int canCompleteCircuit(std::vector<int>&& gas, std::vector<int>&& cost) {
     return canCompleteCircuit(gas, cost);
 }
