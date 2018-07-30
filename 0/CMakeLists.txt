@@ -6,6 +6,8 @@ foreach(oneSourceFile ${sourceFiles})
     add_executable(${execName} ${oneSourceFile})
 endforeach(oneSourceFile ${sourceFiles})
 
+target_link_libraries(1_TwoSum printer)
+target_link_libraries(15_3Sum printer)
 target_link_libraries(26_RemoveDuplicatesFromSortedArray printer)
 target_link_libraries(66_PlusOne printer)
 target_link_libraries(75_SortColors printer)
