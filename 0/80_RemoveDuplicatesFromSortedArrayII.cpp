@@ -3,7 +3,7 @@
    The same element can appear at most twice.
  */
 #include <vector>
-#include "printer.h"
+#include "printer.hpp"
 int removeDuplicates(std::vector<int>& nums) {
     // My final code inspired by aserdega's solution
     // See my LeetCode post

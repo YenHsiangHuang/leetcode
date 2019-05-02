@@ -1,5 +1,5 @@
 #include <vector>
-#include "printer.h"
+#include "printer.hpp"
 std::vector<std::vector<int>> generate(int numRows) {
     std::vector<std::vector<int>> res;
     res.reserve(numRows);

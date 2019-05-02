@@ -1,6 +1,6 @@
 // LC #75
 #include <vector>
-#include "printer.h"
+#include "printer.hpp"
 
 // One-pass algorithm
 void sortColors(std::vector<int>& nums) {

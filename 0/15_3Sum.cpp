@@ -1,7 +1,7 @@
 // Find triplets that sum to zero
 #include <stack>
 #include <vector>
-#include "printer.h"
+#include "printer.hpp"
 std::vector<std::vector<int>> threeSum(std::vector<int>& nums) {
     std::sort(nums.begin(), nums.end());
     std::vector<std::vector<int>> res;

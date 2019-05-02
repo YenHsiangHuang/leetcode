@@ -1,6 +1,6 @@
 // Remove duplicates of a sorted array "in place" and return new length.
 #include <vector>
-#include "printer.h"
+#include "printer.hpp"
 int removeDuplicates(std::vector<int>& nums) {
     if (nums.empty()) return 0;
 

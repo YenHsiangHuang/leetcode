@@ -1,8 +1,8 @@
 #include <cstdlib>
 #include <ctime>
 #include <vector>
-#include "matlab.h"
-#include "printer.h"
+#include "matlab.hpp"
+#include "printer.hpp"
 /**
    There is a one-pass algorithm on leetcode but I cannot understand it. Maybe I
    will try again some other time.

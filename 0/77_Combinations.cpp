@@ -3,7 +3,7 @@
    reallocation of large vectors.
  */
 #include <vector>
-#include "printer.h"
+#include "printer.hpp"
 
 typedef unsigned long long ull_t;
 ull_t nCr(ull_t n, ull_t r) {

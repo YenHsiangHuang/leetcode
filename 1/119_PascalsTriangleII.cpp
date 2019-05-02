@@ -1,5 +1,5 @@
 #include <vector>
-#include "printer.h"
+#include "printer.hpp"
 // A more concise backward solution
 std::vector<int> getRow(int rowIndex) {
     std::vector<int> res(rowIndex + 1);
